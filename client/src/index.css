@@ -1,0 +1,55 @@
+* {
+  text-transform: uppercase;
+}
+
+header {
+  height: 200px;
+  background: #f15a24;
+  background: linear-gradient(90deg, #f15a24 0%, #007ac2 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: whitesmoke;
+  font-style: oblique;
+  border: 2px solid black;
+  border-width: 0 0 2px;
+}
+
+.buscar {
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.card {
+  width: 18rem;
+}
+
+.card-title {
+  margin-bottom: 20px;
+}
+
+.listado {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.listado .card {
+  display: inline-block;
+  margin: 20px;
+  margin-top: 0;
+}
+
+footer {
+  height: 100px;
+  background: #f15a24;
+  background: linear-gradient(90deg, #f15a24 0%, #007ac2 100%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: whitesmoke;
+}
